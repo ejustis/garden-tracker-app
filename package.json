@@ -1,0 +1,25 @@
+{
+  "name": "garden_tracker",
+  "version": "1.0.0",
+  "description": "Tracks the sun exposure on a garden plot throughout the day",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elijah Anderson-Justis",
+  "license": "MIT",
+  "dependencies": {
+    "bluetooth-serial-port": "^2.2.7",
+    "electron": "^9.1.2",
+    "escpos": "^3.0.0-alpha.4",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.25",
+    "noble": "^1.9.1",
+    "node-gyp": "^7.0.0",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.11.0"
+  }
+}
